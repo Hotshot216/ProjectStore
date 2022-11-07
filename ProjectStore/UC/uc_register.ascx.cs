@@ -50,7 +50,7 @@ namespace ProjectStore.UC
             if (responseSP == 0)
             {
                 lbl_message.Visible = true;
-                lbl_message.Text = "User já existe";
+                lbl_message.Text = "User already exists";
             }
             else
             {

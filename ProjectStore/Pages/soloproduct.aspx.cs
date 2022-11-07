@@ -12,9 +12,10 @@ namespace ProjectStore.Pages
 {
     public partial class soloproduct : System.Web.UI.Page
     {
+        string id;
         protected void Page_Load(object sender, EventArgs e)
         {
-            string id = Request.QueryString["id"];
+             id = Request.QueryString["id"];
 
             if (Request.QueryString["id"] == null)
             {
@@ -72,7 +73,7 @@ namespace ProjectStore.Pages
             }
             else
             {
-
+                Session["cart"] += id + ",";
             }
         }
     }

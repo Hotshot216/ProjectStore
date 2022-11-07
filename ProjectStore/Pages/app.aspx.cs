@@ -68,6 +68,7 @@ namespace ProjectStore.Pages
             List<product> lst_products = new List<product>();
 
             while (drProd.Read())
+
             {
                 product p = new product();
                 p.id_prod = drProd["id_prod"].ToString();
