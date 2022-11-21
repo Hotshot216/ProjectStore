@@ -123,6 +123,7 @@
     <Content Include="Pages\app.aspx" />
     <Content Include="Pages\changeProduct.aspx" />
     <Content Include="Pages\changeUser.aspx" />
+    <Content Include="Pages\checkout.aspx" />
     <Content Include="Pages\dashboard.aspx" />
     <Content Include="Pages\confirm_email.aspx" />
     <Content Include="Pages\chgPwTkn.aspx" />
@@ -185,6 +186,13 @@
     </Compile>
     <Compile Include="Pages\changeUser.aspx.designer.cs">
       <DependentUpon>changeUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>

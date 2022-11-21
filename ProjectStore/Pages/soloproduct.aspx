@@ -2,7 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container border-right border-bottom">
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server" EnableViewState="False">
+        <ContentTemplate>
+            <div class="container border-right border-bottom">
         <div class="row">
             <div class="col-6 mt-auto">
                  <div class="form-group">
@@ -32,4 +34,7 @@
             </div>            
         </div>
     </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    
 </asp:Content>
